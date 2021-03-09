@@ -8,8 +8,9 @@
 trigger:
 - master
 
-# variables
-    tag:  '$(Build.BuildID)'  
+# Variables
+variables:
+  tag:  '$(Build.BuildID)'  
 
 stages: 
 # Build Stage
